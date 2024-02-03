@@ -1,0 +1,81 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h3 {
+  display: inline;
+}
+
+.header-logo {
+  display: flex;
+  padding: 1rem 4rem;
+  justify-content: space-between;
+  border-bottom: 2px solid lightgray;
+  height: 2rem;
+}
+
+.new-tweet-container {
+  width: 65vw;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.new-tweet {
+  width: 45vw;
+  height: 45vh;
+  border: 2px solid black;
+  padding: 1rem;
+  border-radius: 25px;
+}
+
+.social-body {
+  display: flex;
+  justify-content: space-between;
+  height: 92.5vh;
+}
+.tweet-container {
+  width: 35vw;
+}
+
+.textarea {
+  resize: none;
+  width: 100%;
+  height: 100%;
+}
+
+.text-area {
+  display: flex;
+  height: 80%;
+  /* padding: 10px; */
+  /* justify-content: space-around; */
+}
+
+.new-tweet-bottom {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 2rem;
+}
+.post-btn {
+  padding: 5px 10px;
+  background-color: blue;
+  border: 1px solid black;
+  border-radius: 25px;
+  color: white;
+}
+
+hr {
+  border: 1px solid lightgray;
+}
+
+button {
+  background-color: white;
+  border: none;
+}
+
+.editable {
+  border: 2px solid blue;
+}
